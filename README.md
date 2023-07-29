@@ -15,7 +15,7 @@ This repository contains a simple web project consisting of three files: `index.
 To use this project, simply clone the repository to your local machine using the following command:
 
 ```
-git clone https://github.com/thisisaro/htmlExpBlg1.git
+git clone https://github.com/thisizaro/htmlExpBlg1.git
 ```
 
 After cloning, you can open the `index.html` file in your web browser to view the web page. The navigation menu will display on the left side, and clicking the central menu button will expand the hidden navigation blocks.
