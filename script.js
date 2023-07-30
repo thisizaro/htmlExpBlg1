@@ -1,16 +1,14 @@
-let x = document.getElementsByClassName("nav-menu");
-let y = document.querySelector(".nav-block");
+let navMenu = document.querySelector('.nav-menu');
+let navBlocks = document.querySelectorAll('.nav-block');
 
-console.log(x);
-console.log(y);
+console.log(navMenu.style);
+console.log(navBlocks.style);
 
-console.log("\n");
-while (true)
-{
-    x.addEventListener("click", displayDate);
-}
+navMenu.onclick = function(){
+    console.log(navBlocks)
+    for (let i = 0; i < navBlocks.length; i++) {
+        navBlocks[i].classList.toggle('navActive');
+    }
 
-function displayDate()
-{
-console.log("Function working")
+    console.log("active")
 }
